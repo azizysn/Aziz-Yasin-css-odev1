@@ -1,0 +1,123 @@
+body{
+    background-color:#101010;
+}
+
+.h1-first{
+    text-align:center;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.nav{
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+a:link{
+    color: rgba(128, 128, 128, 0.621);
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgba(128, 128, 128, 0.621);
+}
+
+a:hover{
+    color: gray;
+}
+
+a:active{
+    color: rgb(202, 202, 0);
+}
+
+.button{
+
+    background-color: rgb(41, 41, 41);
+
+    border: none;
+
+    color:rgb(202, 202, 0);
+
+    padding: 10px 20px;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    display: inline-block;
+
+    font-size: 15px;
+
+    margin: 4px 2px;
+
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.center {
+   
+    text-align: center;
+  }
+
+.p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.frame {
+    width:250px;
+    height: 310px;
+    border: 3px solid rgb(202, 202, 0);
+    background: #101010;
+    margin: auto;
+    padding: 15px 10px;
+    border-radius: 5px;
+  }
+
+img{
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+  }
+
+
+
+
+.p-urun{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.frame-left{
+    position: relative;
+    right: -300px;
+    left: -300px;
+    top: -345px;
+}
+
+.frame-right{
+    position: relative;
+    left: 300px;
+    right: 300px;
+    top: -690px;
+}
+
+.class-container{
+    display: inline-flex;
+    grid-template-columns: 10rem 10rem;
+    grid-template-rows: 5rem 5rem;
+    gap: 100px;
+    
+}
+
+.item{
+    background-color: #101010;
+    text-align: center;
+}
